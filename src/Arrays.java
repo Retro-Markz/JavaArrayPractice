@@ -10,14 +10,13 @@ public class Arrays {
         enteros[1] = 23;
         enteros[3] = 98;
         enteros[2] = 68;
-        //System.out.println("enteros = " + enteros[4]);
+        System.out.println("enteros = " + enteros[4]);
 
         int[] nums = {23,44,0,12,43};
-        //System.out.println("values = " + nums[1]);
-
-//        for (int num : nums) {
-//            //System.out.println(num);
-//        }
+        System.out.println("values = " + nums[1]);
+        for (int num : nums) {
+            System.out.println(num);
+       }
 
 
 
